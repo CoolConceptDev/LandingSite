@@ -4,7 +4,7 @@ const teamMembers = [
   {
     name: "Amit Sharma",
     role: "CEO & Founder",
-    image: "https://i.pinimg.com/736x/e7/e1/4f/e7e14f2c45c23f67350742c2037ebc28.jpg",
+    image: "/member1.jpg",
     bio: "With 20+ years in HVAC, Amit leads WeFix with a vision for innovation and excellence.",
     social: {
       linkedin: "#",
@@ -14,7 +14,7 @@ const teamMembers = [
   {
     name: "Priya Desai",
     role: "Technical Director",
-    image: "https://i.pinimg.com/736x/bc/39/dc/bc39dc71596a09728a31552bbe0d40e9.jpg",
+    image: "/member2.jpg",
     bio: "Priya oversees all technical operations and ensures the highest quality standards in our services.",
     social: {
       linkedin: "#",
@@ -24,7 +24,7 @@ const teamMembers = [
   {
     name: "Rahul Verma",
     role: "Head of Sales",
-    image: "https://i.pinimg.com/736x/b9/35/2a/b9352a8c443e36b9e6bc5e63ed9f769c.jpg",
+    image: "/member3.jpg",
     bio: "Rahul leads our sales team with a focus on customer satisfaction and business growth.",
     social: {
       linkedin: "#",
@@ -34,7 +34,7 @@ const teamMembers = [
   {
     name: "Sneha Patil",
     role: "Customer Service Manager",
-    image: "https://i.pinimg.com/736x/2d/37/9f/2d379fd36545a9cc1f74140ab219f936.jpg",
+    image: "/member4.jpg",
     bio: "Sneha ensures exceptional customer experience across all our service touchpoints.",
     social: {
       linkedin: "#",
@@ -44,12 +44,12 @@ const teamMembers = [
 ];
 
 const technicians = [
-  { name: "Vikram Singh", role: "Senior Technician", image: "https://randomuser.me/api/portraits/men/5.jpg" },
-  { name: "Ananya Iyer", role: "HVAC Specialist", image: "https://randomuser.me/api/portraits/women/6.jpg" },
-  { name: "Ravi Kumar", role: "Installation Expert", image: "https://randomuser.me/api/portraits/men/7.jpg" },
-  { name: "Neha Kapoor", role: "Service Technician", image: "https://randomuser.me/api/portraits/women/8.jpg" },
-  { name: "Arjun Mehta", role: "Maintenance Specialist", image: "https://randomuser.me/api/portraits/men/9.jpg" },
-  { name: "Pooja Das", role: "AC Repair Expert", image: "https://randomuser.me/api/portraits/women/10.jpg" }
+  { name: "Vikram Singh", role: "Senior Technician", image: "/teammember.jpg" },
+  { name: "Ananya Iyer", role: "HVAC Specialist", image: "/teammember1.jpg" },
+  { name: "Ravi Kumar", role: "Installation Expert", image: "/teammember2.jpg" },
+  { name: "Neha Kapoor", role: "Service Technician", image: "/teammember3.jpg" },
+  { name: "Arjun Mehta", role: "Maintenance Specialist", image: "/teammember4.jpg" },
+  { name: "Pooja Das", role: "AC Repair Expert", image: "/teammember5.jpg" }
 ];
 
 export default function Team() {

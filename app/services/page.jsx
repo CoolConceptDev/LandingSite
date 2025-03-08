@@ -20,7 +20,7 @@ const services = {
       id: 'repair',
       description: '24/7 emergency repairs and regular maintenance services for all AC brands',
       icon: Tool,
-      image: 'https://i.pinimg.com/736x/11/ab/10/11ab10c9637b107230f9af02ab27fe67.jpg',
+      image: '/service1.jpg',
       process: [
         {
           step: 'Diagnosis',
@@ -46,7 +46,7 @@ const services = {
       title: 'Commercial AC Repair',
       description: 'Specialized solutions for businesses and commercial properties',
       icon: Settings,
-      image: 'https://i.pinimg.com/736x/c7/40/27/c7402786b54bd3ff7449c86f7ef9fac7.jpg',
+      image: '/service2.jpg',
       process: [
         {
           step: 'Diagnosis',
@@ -72,7 +72,7 @@ const services = {
       title: 'AC Maintenance',
       description: 'Regular maintenance to keep your AC running efficiently',
       icon: Clock,
-      image: 'https://i.pinimg.com/736x/a1/ed/ab/a1edab92b3d422666eef6dcc03319800.jpg',
+      image: '/service3.jpg',
       process: [
         {
           step: 'Inspection',
@@ -98,7 +98,7 @@ const services = {
       title: 'New AC Installation',
       description: 'Professional installation of the latest energy-efficient AC units',
       icon: AirVent,
-      image: 'https://i.pinimg.com/736x/84/c1/cd/84c1cd1b51b8868e7de7f7942facf9e1.jpg',
+      image: '/service4.jpg',
       process: [
         {
           step: 'Assessment',
@@ -124,7 +124,7 @@ const services = {
       title: 'Bulk AC Sales',
       description: 'Wholesale pricing for bulk orders of quality air conditioning units',
       icon: ShoppingCart,
-      image: 'https://i.pinimg.com/736x/79/0c/97/790c97e463ddf9fbc00c83a04520a802.jpg',
+      image: '/service5.jpg',
       process: [
         {
           step: 'Consultation',
@@ -150,7 +150,7 @@ const services = {
       title: 'Emergency Services',
       description: 'Round-the-clock emergency repair services',
       icon: Clock,
-      image: 'https://i.pinimg.com/736x/25/f3/1d/25f31ddd0eb14ffe0e0edf107e83cb71.jpg',
+      image: '/service6.jpg',
       process: [
         {
           step: 'Call',

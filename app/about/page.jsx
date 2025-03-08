@@ -21,7 +21,7 @@ export default function About() {
           </div>
           <div className="hidden md:block">
             <img
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              src="/about.avif"
               alt="About Cool Concept"
               className="w-full h-96 object-cover rounded-lg"
             />

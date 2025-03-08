@@ -11,7 +11,9 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Snowflake className="h-8 w-8 text-green-600" />
-              <span className="text-xl font-bold text-gray-900">Cool Concept</span>
+              <span className="text-xl font-bold text-gray-800">
+            <span className="text-green-600">Cool</span> Concept
+          </span>
             </div>
             <p className="text-sm text-gray-600">
               Your trusted partner for all AC needs. Professional service, competitive prices, and customer satisfaction guaranteed.

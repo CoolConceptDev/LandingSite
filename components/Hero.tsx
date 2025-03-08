@@ -37,7 +37,7 @@ export default function Hero() {
       <div className="bg-gray-100 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-          src="https://i.pinimg.com/736x/e5/59/7d/e5597d8f34f6861c3ea62b4915d66b85.jpg"
+          src="/hero.jpg"
           alt="AC Installation"
         />
       </div>
