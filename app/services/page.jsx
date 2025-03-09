@@ -177,7 +177,8 @@ export default function Services() {
   const [activeTab, setActiveTab] = useState('residential');
 
   return (
-    <section id="services" className="pt-10 pb-20 bg-gray-50">
+    <div className='flex justify-center items-center'>
+    <section id="services" className="pt-10 pb-20 bg-gray-50 ">
       <div className="container">
         {/* Heading */}
         <div className="text-center mb-16">
@@ -302,5 +303,6 @@ export default function Services() {
         </div>
       </section>
     </section>
+    </div>
   );
 }

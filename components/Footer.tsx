@@ -4,7 +4,7 @@ import Link from 'next/link'; // Use Next.js's Link
 
 export default function Footer() {
   return (
-    <footer id="contact" className="bg-white text-gray-800 border-t border-gray-200 px-4">
+    <footer id="contact" className="bg-white text-gray-800 border-t border-gray-200 px-4 flex justify-center items-center">
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}

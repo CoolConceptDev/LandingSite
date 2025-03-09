@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Ignore Firebase service account keys
+coolconcept-8286f-firebase-adminsdk-fbsvc-38754c7259.json
+*-firebase-adminsdk-*.json

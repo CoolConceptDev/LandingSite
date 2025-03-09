@@ -30,7 +30,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-6">
+        <nav className="hidden md:flex items-end gap-6">
           {navItems.map((item) => (
             <Link
               key={item.path}
@@ -48,12 +48,12 @@ export default function Navbar() {
 
         {/* Mobile Navigation */}
         <Sheet>
-          <SheetTrigger asChild className="md:hidden">
+          <SheetTrigger asChild className="md:hidden bg-white">
             <Button variant="secondary" size="icon">
-              <MdOutlineMenu className="h-6 w-6 text-gray-900" />
+              <MdOutlineMenu className="h-6 w-6  text-gray-900" />
             </Button>
           </SheetTrigger>
-          <SheetContent>
+          <SheetContent className="bg-white">
             <nav className="flex flex-col gap-4 mt-8">
               {navItems.map((item) => (
                 <Link

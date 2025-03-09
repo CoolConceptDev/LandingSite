@@ -37,7 +37,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-14 px-4 bg-gray-50">
+    <section id="services" className="py-14 px-4 bg-gray-50 flex justify-center items-center">
       <div className="container">
         <div className="text-center mb-10">
           <h2 className="text-3xl font-bold mb-4">Our Services</h2>

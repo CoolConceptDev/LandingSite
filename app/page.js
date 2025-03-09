@@ -6,7 +6,7 @@ import ContactForm from '../components/ContactForm';
 
 export default function Home() {
   return (
-    <div>
+    <div className='mx-auto'>
       <Hero />
       <ServicesOverview />
       <WhyChooseUs />

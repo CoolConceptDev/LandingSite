@@ -24,7 +24,7 @@ const testimonials = [
 export default function Testimonials() {
   return (
     <div className=" md:p-8 py-4 px-2 ">
-             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Client Testimonials</h2>
+             <h2 className="text-3xl font-bold text-gray-900 mb-8 flex justify-center items-center">Client Testimonials</h2>
              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                {testimonials.map((testimonial, index) => (
                  <Card key={index}>

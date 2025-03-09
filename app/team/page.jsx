@@ -54,7 +54,7 @@ const technicians = [
 
 export default function Team() {
   return (
-    <div className="pt-10">
+    <div className="pt-10 flex justify-center items-center">
       <div className="container bg-gray-50 -mt-10">
         {/* Header */}
         <div className="text-center mb-12 pt-10">

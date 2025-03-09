@@ -3,7 +3,7 @@ import { Calendar, MapPin, Lightbulb, Trophy } from 'lucide-react';
 
 export default function About() {
   return (
-    <div className="py-16 -mt-6">
+    <div className="py-16 -mt-6 flex justify-center items-center">
       <div className="container">
         {/* About Section with Image */}
         <div className="grid md:grid-cols-2 gap-12 mb-20 px-4 md:px-14">
